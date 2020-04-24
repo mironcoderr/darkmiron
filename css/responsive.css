@@ -1,0 +1,1421 @@
+/*==============================================
+          INDEX PAGE RESPONSIVE START
+===============================================*/
+@media (max-width: 575px) {
+    /*-----------------------------
+      BACK TO TOP BUTTON PART STAR 
+    -------------------------------*/
+    .top-btn a i{
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    /*-----------------------------
+       BACK TO TOP BUTTON PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+          PRELOADER PART START
+    -------------------------------*/
+    .preloader img{
+        width: 80px;
+    }
+    .preloader h1{
+        font-size: 18px;
+        width: 200px;
+    }
+    /*-----------------------------
+           PRELOADER PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+         NAVBAR MENU PART STAR 
+    -------------------------------*/
+    .navbar-brand{
+        z-index: 1;
+    }
+    .navbar a img{
+        width: 60px;
+    }
+    .navbar-toggler{
+        z-index: 1;
+        border: 2px solid #01e292 !important;
+    }
+    .navbar-toggler i{
+        color: #01e292;
+        font-size: 18px;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: #070f22;
+        padding: 25px 0px;
+        z-index: 1;
+    }
+    .navbar ul li a{
+        margin: 5px 0px;
+        font-size: 16px;
+    }
+    /*-----------------------------
+         NAVBAR MENU PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           BANNER PART START
+    -------------------------------*/
+    #particles-js{
+        height: 550px !important;
+    }
+    .banner-text{
+        width: 290px;
+        top: 305px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text p{
+        width: 270px;
+    }
+    .banner-text a{
+        font-size: 16px;
+    }
+    /*-----------------------------
+            BANNER PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           SERVICE PART START
+    -------------------------------*/
+    #service-part{
+        padding: 60px 0px 0px;
+    }
+    .service-heading{
+        margin-bottom: 30px;
+    }
+    .service-heading h2{
+        font-size: 26px;
+    }
+    .service-heading p{
+        width: 190px;
+        font-size: 14px;
+    }
+    .service-heading p::before{
+        width: 30px;
+    }
+    .service-heading p::after{
+        width: 30px;
+    }
+    .service-type i{
+        font-size: 35px;
+    }
+    .service-type h4{
+        font-size: 20px;
+    }
+    .service-type p{
+        font-size: 15px;
+    }
+    .service-type{
+        padding: 58px 35px 38px;
+    }
+    .respons-ghape{
+        margin-bottom: 30px;
+    }
+    /*-----------------------------
+            SERVICE PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+            SKILL PART START
+    -------------------------------*/
+    #skill-part{
+        padding: 60px 0px 0px;
+    }
+    .skill-heading{
+        margin-bottom: 35px;
+    }
+    .skill-heading h2{
+        font-size: 26px;
+    }
+    .skill-heading  p{
+        width: 150px;
+        font-size: 14px;
+    }
+    .skill-heading  p::before{
+        width: 30px;
+    }
+    .skill-heading  p::after{
+        width: 30px;
+    }
+    .skill-type h3{
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .skill-parent-circle{
+        width: 120px;
+        height: 120px;
+    }
+    .skill-child-circle{
+        width: 60px;
+        height: 60px;
+        line-height: 40px;
+    }
+    .skill-number{
+        font-size: 16px;
+    }
+    .respons-skill-ghape{
+        margin-bottom: 40px;
+    }
+    /*-----------------------------
+            SKILL PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+            ABOUT PART START
+    -------------------------------*/
+    #about-part{
+        padding: 70px 0px 0px;
+    }
+    .about-img{
+        margin-bottom: 30px;
+    }
+    .about-text{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .about-text h2{
+        font-size: 26px;
+        text-align: center;
+    }
+    .about-text p{
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .about-details{
+        display: inherit;
+        margin-top: 30px;
+        text-align: left;
+    }
+    .about-details ul li h3{
+        font-size: 15px;
+    }
+    .about-details ul li p{
+        text-align: left;
+        font-size: 15px;
+    }
+    .about-details ul li:last-child{
+        margin-bottom: 18px !important;
+    }
+    .about-text a{
+        font-size: 16px;
+        margin: 20px 5px 0px;
+        padding: 12px 24px;
+    }
+    /*-----------------------------
+             ABOUT PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+         EXPERIENCE PART START
+    -------------------------------*/
+    #ex-part{
+        padding: 60px 0px 0px;
+    }
+    .ex-heading{
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+    .ex-heading i{
+        font-size: 40px;
+    }
+    .ex-heading h2{
+        font-size: 26px;
+    }
+    .ex-content h3{
+        font-size: 15px;
+    }
+    .ex-content h4{
+        font-size: 16px;
+    }
+    .ex-content p{
+        font-size: 14px;
+    }
+    .ex-shape{
+        height: 180px;
+    }
+    .ex-details{
+        margin-bottom: 35px;
+    }
+    .ex-respons-ghape{
+        margin-top: 60px;
+    }
+    /*-----------------------------
+          EXPERIENCE PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+          PORTFOLIO PART START
+    -------------------------------*/
+    #prot-part{
+        padding: 70px 0px 0px;
+    }
+    .prot-heading{
+        margin-bottom: 80px;
+    }
+    .prot-heading h2{
+        font-size: 26px;
+    }
+    .prot-heading  p{
+        width: 180px;
+        font-size: 14px;
+    }
+    .prot-heading  p::before{
+        width: 30px;
+    }
+    .prot-heading  p::after{
+        width: 30px;
+    }
+    .bamdik{
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: -60px;
+    }
+    .dandik{
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: -60px;
+    }
+    .prot-main{
+        margin: 0px 5px;
+    }
+    .port-btn a{
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    /*-----------------------------
+          PORTFOLIO PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+            PRICE PART START
+    -------------------------------*/
+    #price-part{
+        padding: 60px 0px 0px;
+    }
+    .price-heading{
+        margin-bottom: 30px;
+    }
+    .price-heading h2{
+        font-size: 26px;
+    }
+    .price-heading  p{
+        width: 190px;
+        font-size: 14px;
+    }
+    .price-heading  p::before{
+        width: 30px;
+    }
+    .price-heading  p::after{
+        width: 30px;
+    }
+    .price-btn a{
+        font-size: 16px;
+    }
+    .price-card ul li{
+        font-size: 15px;
+    }
+    /*-----------------------------
+            PRICE PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+             BLOG PART START
+    -------------------------------*/
+    #blog-part{
+        padding: 60px 0px 0px;
+    }
+    .blog-heading{
+        margin-bottom: 80px;
+    }
+    .blog-heading h2{
+        font-size: 26px;
+    }
+    .blog-heading  p{
+        width: 190px;
+        font-size: 14px;
+    }
+    .blog-heading  p::before{
+        width: 30px;
+    }
+    .blog-heading  p::after{
+        width: 30px;
+    }
+    .blog-card{
+        margin: 0px 5px;
+    }
+    .blog-text p{
+        font-size: 15px;
+    }
+    .blog-text h3{
+        font-size: 18px;
+    }
+    .blog-react i{
+        font-size: 12px;
+    }
+    .blog-react p{
+        font-size: 12px;
+    }
+    .blog-react:after{
+        display: none;
+    }
+    .blog-btn a{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /*-----------------------------
+             BLOG PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           CONTACT PART START
+    -------------------------------*/
+    #contact-part{
+        padding: 60px 0px 0px;
+    }
+    .contact-heading{
+        margin-bottom: 30px;
+    }
+    .contact-heading h2{
+        font-size: 26px;
+    }
+    .contact-heading  p{
+        width: 170px;
+        font-size: 14px;
+    }
+    .contact-heading  p::before{
+        width: 30px;
+    }
+    .contact-heading  p::after{
+        width: 30px;
+    }
+    .address-text h3{
+        font-size: 20px;
+    }
+    .address-text h4,
+    .address-text h5{
+        font-size: 15px;
+    }
+    .address-icon i{
+        font-size: 40px;
+    }
+    .contact-address:last-child{
+        margin-bottom: 30px !important;
+    }
+    .contact-form button{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    /*-----------------------------
+            CONTACT PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           FOOTER PART START
+    -------------------------------*/
+    #footer-part{
+        padding: 60px 0px;
+    }
+    .footer-logo{
+        margin-bottom: 25px;
+    }
+    .footer-logo a img{
+        width: 60px;
+    }
+    .footer-menu ul li {
+        margin: 0px 6px 35px !important;
+    }
+    .footer-menu ul li a i{
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .copy-text p{
+        font-size: 15px;
+    }
+    /*-----------------------------
+            FOOTER PART END
+    -------------------------------*/
+}
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /*-----------------------------
+      BACK TO TOP BUTTON PART STAR 
+    -------------------------------*/
+    .top-btn a i{
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    /*-----------------------------
+       BACK TO TOP BUTTON PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+          PRELOADER PART START
+    -------------------------------*/
+    .preloader img{
+        width: 80px;
+    }
+    .preloader h1{
+        font-size: 18px;
+    }
+    /*-----------------------------
+           PRELOADER PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+         NAVBAR MENU PART STAR 
+    -------------------------------*/
+    .navbar-brand{
+        z-index: 1;
+    }
+    .navbar a img{
+        width: 60px;
+    }
+    .navbar-toggler{
+        z-index: 1;
+        border: 2px solid #01e292 !important;
+    }
+    .navbar-toggler i{
+        color: #01e292;
+        font-size: 18px;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: #070f22;
+        padding: 25px 0px;
+        z-index: 1;
+    }
+    .navbar ul li a{
+        margin: 5px 0px;
+        font-size: 16px;
+    }
+    /*-----------------------------
+         NAVBAR MENU PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           BANNER PART START
+    -------------------------------*/
+    #particles-js{
+        height: 600px !important;
+    }
+    .banner-text{
+        width: 430px;
+        top: 330px;
+    }
+    .banner-text h1{
+        font-size: 36px;
+    }
+    .banner-text p{
+        width: 340px;
+    }
+    .banner-text a{
+        font-size: 16px;
+    }
+    /*-----------------------------
+            BANNER PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           SERVICE PART START
+    -------------------------------*/
+    #service-part{
+        padding: 60px 0px 0px;
+    }
+    .service-heading{
+        margin-bottom: 35px;
+    }
+    .service-heading h2{
+        font-size: 26px;
+    }
+    .service-heading p{
+        width: 300px;
+        font-size: 14px;
+    }
+    .service-heading p::before{
+        width: 30px;
+    }
+    .service-heading p::after{
+        width: 30px;
+    }
+    .service-type i{
+        font-size: 35px;
+    }
+    .service-type h4{
+        font-size: 20px;
+    }
+    .service-type p{
+        font-size: 15px;
+    }
+    .service-type{
+        padding: 48px 15px 38px;
+    }
+    .respons-ghape{
+        margin-bottom: 30px;
+    }
+    /*-----------------------------
+            SERVICE PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+            SKILL PART START
+    -------------------------------*/
+   #skill-part{
+        padding: 60px 0px 0px;
+    }
+    .skill-heading{
+        margin-bottom: 35px;
+    }
+    .skill-heading h2{
+        font-size: 26px;
+    }
+    .skill-heading  p{
+        width: 150px;
+        font-size: 14px;
+    }
+    .skill-heading  p::before{
+        width: 30px;
+    }
+    .skill-heading  p::after{
+        width: 30px;
+    }
+    .skill-type h3{
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .skill-parent-circle{
+        width: 120px;
+        height: 120px;
+    }
+    .skill-child-circle{
+        width: 60px;
+        height: 60px;
+        line-height: 40px;
+    }
+    .skill-number{
+        font-size: 16px;
+    }
+    .respons-skill-ghape{
+        margin-bottom: 40px;
+    }
+    /*-----------------------------
+            SKILL PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+            ABOUT PART START
+    -------------------------------*/
+    #about-part{
+        padding: 70px 0px 0px;
+    }
+    .about-img{
+        margin-bottom: 30px;
+    }
+    .about-text{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .about-text h2{
+        font-size: 26px;
+        text-align: center;
+    }
+    .about-para{
+        width: 445px;
+        font-size: 15px;
+        margin: 17px auto 0px;
+    }
+    .about-details{
+        margin-top: 30px;
+    }
+    .about-details ul li h3{
+        font-size: 15px;
+    }
+    .about-details ul li p{
+        margin-left: 5px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .about-details ul li:last-child{
+        margin-bottom: 18px !important;
+    }
+    .about-text a{
+        font-size: 16px;
+        margin: 20px 5px 0px;
+        padding: 12px 24px;
+    }
+    /*-----------------------------
+             ABOUT PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+         EXPERIENCE PART START
+    -------------------------------*/
+    #ex-part{
+        padding: 60px 0px 0px;
+    }
+    .ex-heading{
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+    .ex-heading i{
+        font-size: 40px;
+    }
+    .ex-heading h2{
+        font-size: 26px;
+    }
+    .ex-content h3{
+        font-size: 15px;
+    }
+    .ex-content h4{
+        font-size: 16px;
+    }
+    .ex-content p{
+        font-size: 14px;
+    }
+    .ex-shape{
+        height: 180px;
+    }
+    .ex-details{
+        margin-bottom: 35px;
+    }
+    /*-----------------------------
+          EXPERIENCE PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+          PORTFOLIO PART START
+    -------------------------------*/
+    #prot-part{
+        padding: 70px 0px 0px;
+    }
+    .prot-heading{
+        margin-bottom: 80px;
+    }
+    .prot-heading h2{
+        font-size: 26px;
+    }
+    .prot-heading  p{
+        width: 255px;
+        font-size: 14px;
+    }
+    .prot-heading  p::before{
+        width: 30px;
+    }
+    .prot-heading  p::after{
+        width: 30px;
+    }
+    .bamdik{
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: -60px;
+    }
+    .dandik{
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: -60px;
+    }
+    .prot-main{
+        margin: 0px 10px;
+    }
+    .port-btn a{
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    /*-----------------------------
+          PORTFOLIO PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+            PRICE PART START
+    -------------------------------*/
+    #price-part{
+        padding: 60px 0px 0px;
+    }
+    .price-heading{
+        margin-bottom: 30px;
+    }
+    .price-heading h2{
+        font-size: 26px;
+    }
+    .price-heading  p{
+        width: 275px;
+        font-size: 14px;
+    }
+    .price-heading  p::before{
+        width: 30px;
+    }
+    .price-heading  p::after{
+        width: 30px;
+    }
+    .price-btn a{
+        font-size: 16px;
+    }
+    .price-card ul li{
+        font-size: 15px;
+    }
+    /*-----------------------------
+            PRICE PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+             BLOG PART START
+    -------------------------------*/
+    #blog-part{
+        padding: 60px 0px 0px;
+    }
+    .blog-heading{
+        margin-bottom: 80px;
+    }
+    .blog-heading h2{
+        font-size: 26px;
+    }
+    .blog-heading  p{
+        width: 305px;
+        font-size: 14px;
+    }
+    .blog-heading  p::before{
+        width: 30px;
+    }
+    .blog-heading  p::after{
+        width: 30px;
+    }
+    .blog-card{
+        margin: 0px 10px;
+    }
+    .blog-text p{
+        font-size: 15px;
+    }
+    .blog-text h3{
+        font-size: 18px;
+    }
+    .blog-react i{
+        font-size: 12px;
+    }
+    .blog-react p{
+        font-size: 12px;
+    }
+    .blog-react:after{
+        display: none;
+    }
+    .blog-btn a{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /*-----------------------------
+             BLOG PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           CONTACT PART START
+    -------------------------------*/
+    #contact-part{
+        padding: 60px 0px 0px;
+    }
+    .contact-heading{
+        margin-bottom: 30px;
+    }
+    .contact-heading h2{
+        font-size: 26px;
+    }
+    .contact-heading  p{
+        width: 260px;
+        font-size: 14px;
+    }
+    .contact-heading  p::before{
+        width: 30px;
+    }
+    .contact-heading  p::after{
+        width: 30px;
+    }
+    .address-text h3{
+        font-size: 20px;
+    }
+    .address-text h4,
+    .address-text h5{
+        font-size: 15px;
+    }
+    .address-icon i{
+        font-size: 40px;
+    }
+    .contact-address:last-child{
+        margin-bottom: 30px !important;
+    }
+    .contact-form button{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    /*-----------------------------
+            CONTACT PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           FOOTER PART START
+    -------------------------------*/
+    #footer-part{
+        padding: 60px 0px;
+    }
+    .footer-logo{
+        margin-bottom: 25px;
+    }
+    .footer-logo a img{
+        width: 60px;
+    }
+    .footer-menu ul li {
+        margin: 0px 6px 35px !important;
+    }
+    .footer-menu ul li a i{
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .copy-text p{
+        font-size: 15px;
+    }
+    /*-----------------------------
+            FOOTER PART END
+    -------------------------------*/
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*-----------------------------
+      BACK TO TOP BUTTON PART STAR 
+    -------------------------------*/
+    .top-btn a i{
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    /*-----------------------------
+       BACK TO TOP BUTTON PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+          PRELOADER PART START
+    -------------------------------*/
+    .preloader img{
+        width: 80px;
+    }
+    .preloader h1{
+        font-size: 18px;
+    }
+    /*-----------------------------
+           PRELOADER PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+         NAVBAR MENU PART STAR 
+    -------------------------------*/
+    .navbar-brand{
+        z-index: 1;
+    }
+    .navbar a img{
+        width: 60px;
+    }
+    .navbar-toggler{
+        z-index: 1;
+        border: 2px solid #01e292 !important;
+    }
+    .navbar-toggler i{
+        color: #01e292;
+        font-size: 18px;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: #040114;
+        padding: 25px 0px;
+        z-index: 1;
+    }
+    .navbar-nav{
+        display: inherit !important;
+    }
+    .navbar ul li{
+        display: inline-block;
+    }
+    .navbar ul li a{
+        margin: 0px 15px;
+        font-size: 16px;
+    }
+    /*-----------------------------
+         NAVBAR MENU PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           BANNER PART START
+    -------------------------------*/
+    #particles-js{
+        height: 600px !important;
+    }
+    .banner-text{
+        width: 500px;
+        top: 330px;
+    }
+    .banner-text h1{
+        font-size: 42px;
+    }
+    .banner-text p{
+        width: 410px;
+    }
+    .banner-text a{
+        font-size: 16px;
+    }
+    /*-----------------------------
+            BANNER PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           SERVICE PART START
+    -------------------------------*/
+    #service-part{
+        padding: 60px 0px 0px;
+    }
+    .service-heading{
+        margin-bottom: 35px;
+    }
+    .service-heading h2{
+        font-size: 26px;
+    }
+    .service-heading p{
+        width: 300px;
+        font-size: 14px;
+    }
+    .service-heading p::before{
+        width: 30px;
+    }
+    .service-heading p::after{
+        width: 30px;
+    }
+    .service-type i{
+        font-size: 35px;
+    }
+    .service-type h4{
+        font-size: 20px;
+    }
+    .service-type p{
+        font-size: 15px;
+    }
+    .service-type{
+        padding: 48px 55px 38px;
+    }
+    .respons-ghape{
+        margin-bottom: 30px;
+    }
+    /*-----------------------------
+            SERVICE PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+            SKILL PART START
+    -------------------------------*/
+    #skill-part{
+        padding: 60px 0px 0px;
+    }
+    .skill-heading{
+        margin-bottom: 35px;
+    }
+    .skill-heading h2{
+        font-size: 26px;
+    }
+    .skill-heading  p{
+        width: 150px;
+        font-size: 14px;
+    }
+    .skill-heading  p::before{
+        width: 30px;
+    }
+    .skill-heading  p::after{
+        width: 30px;
+    }
+    .skill-type h3{
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .skill-parent-circle{
+        width: 120px;
+        height: 120px;
+    }
+    .skill-child-circle{
+        width: 60px;
+        height: 60px;
+        line-height: 40px;
+    }
+    .skill-number{
+        font-size: 16px;
+    }
+    .respons-skill-ghape{
+        margin-bottom: 40px;
+    }
+    /*-----------------------------
+            SKILL PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+            ABOUT PART START
+    -------------------------------*/
+    #about-part{
+        padding: 70px 0px 0px;
+    }
+    .about-img{
+        margin-top: 90px;
+    }
+    .about-text{
+        padding-left: 0px;
+    }
+    .about-text h2{
+        font-size: 26px;
+        text-align: center;
+    }
+    .about-para{
+        width: 100%;
+        font-size: 16px;
+        margin: 17px auto 0px;
+    }
+    .about-details{
+        margin-top: 30px;
+        display: inherit;
+    }
+    .about-details ul li h3{
+        font-size: 15px;
+    }
+    .about-details ul li p{
+        margin-left: 5px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .about-details ul li:last-child{
+        margin-bottom: 18px !important;
+    }
+    .about-text a{
+        font-size: 16px;
+        margin: 20px 5px 0px;
+        padding: 12px 24px;
+    }
+    /*-----------------------------
+             ABOUT PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+         EXPERIENCE PART START
+    -------------------------------*/
+    #ex-part{
+        padding: 60px 0px 0px;
+    }
+    .ex-heading{
+        margin-bottom: 35px;
+    }
+    .ex-heading i{
+        font-size: 40px;
+    }
+    .ex-heading h2{
+        font-size: 26px;
+    }
+    .ex-content h3{
+        font-size: 15px;
+    }
+    .ex-content h4{
+        font-size: 15px;
+    }
+    .ex-content p{
+        font-size: 14px;
+    }
+    .ex-shape{
+        height: 180px;
+    }
+    .ex-details{
+        margin-bottom: 35px;
+    }
+    /*-----------------------------
+          EXPERIENCE PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+          PORTFOLIO PART START
+    -------------------------------*/
+    #prot-part{
+        padding: 70px 0px 0px;
+    }
+    .prot-heading{
+        margin-bottom: 80px;
+    }
+    .prot-heading h2{
+        font-size: 26px;
+    }
+    .prot-heading  p{
+        width: 255px;
+        font-size: 14px;
+    }
+    .prot-heading  p::before{
+        width: 30px;
+    }
+    .prot-heading  p::after{
+        width: 30px;
+    }
+    .bamdik{
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: -60px;
+    }
+    .dandik{
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: -60px;
+    }
+    .prot-main{
+        margin: 0px 10px;
+    }
+    .port-btn a{
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    /*-----------------------------
+          PORTFOLIO PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+            PRICE PART START
+    -------------------------------*/
+    #price-part{
+        padding: 60px 0px 0px;
+    }
+    .price-heading{
+        margin-bottom: 30px;
+    }
+    .price-heading h2{
+        font-size: 26px;
+    }
+    .price-heading  p{
+        width: 275px;
+        font-size: 14px;
+    }
+    .price-heading  p::before{
+        width: 30px;
+    }
+    .price-heading  p::after{
+        width: 30px;
+    }
+    .price-card{
+        padding: 30px 28px;
+    }
+    .price-btn a{
+        font-size: 16px;
+    }
+    .price-card ul li{
+        font-size: 15px;
+    }
+    /*-----------------------------
+            PRICE PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+             BLOG PART START
+    -------------------------------*/
+    #blog-part{
+        padding: 60px 0px 0px;
+    }
+    .blog-heading{
+        margin-bottom: 80px;
+    }
+    .blog-heading h2{
+        font-size: 26px;
+    }
+    .blog-heading  p{
+        width: 305px;
+        font-size: 14px;
+    }
+    .blog-heading  p::before{
+        width: 30px;
+    }
+    .blog-heading  p::after{
+        width: 30px;
+    }
+    .blog-card{
+        margin: 0px 10px;
+    }
+    .blog-text p{
+        font-size: 15px;
+    }
+    .blog-text h3{
+        font-size: 18px;
+    }
+    .blog-react i{
+        font-size: 12px;
+    }
+    .blog-react p{
+        font-size: 12px;
+    }
+    .blog-react:after{
+        display: none;
+    }
+    .blog-btn a{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /*-----------------------------
+             BLOG PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           CONTACT PART START
+    -------------------------------*/
+    #contact-part{
+        padding: 60px 0px 0px;
+    }
+    .contact-heading{
+        margin-bottom: 30px;
+    }
+    .contact-heading h2{
+        font-size: 26px;
+    }
+    .contact-heading  p{
+        width: 260px;
+        font-size: 14px;
+    }
+    .contact-heading  p::before{
+        width: 30px;
+    }
+    .contact-heading  p::after{
+        width: 30px;
+    }
+    .address-text h3{
+        font-size: 20px;
+    }
+    .address-text h4,
+    .address-text h5{
+        font-size: 15px;
+    }
+    .address-icon i{
+        font-size: 40px;
+    }
+    .contact-address:last-child{
+        margin-bottom: 30px !important;
+    }
+    .contact-form button{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    /*-----------------------------
+            CONTACT PART END
+    -------------------------------*/
+    
+    /*-----------------------------
+           FOOTER PART START
+    -------------------------------*/
+    #footer-part{
+        padding: 60px 0px;
+    }
+    .footer-logo{
+        margin-bottom: 25px;
+    }
+    .footer-logo a img{
+        width: 60px;
+    }
+    .footer-menu ul li {
+        margin: 0px 6px 35px !important;
+    }
+    .footer-menu ul li a i{
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .copy-text p{
+        font-size: 15px;
+    }
+    /*-----------------------------
+            FOOTER PART END
+    -------------------------------*/
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .service-type{
+        padding: 58px 35px 38px;
+    }
+    .blog-react::after{
+        display: none;
+    }
+}
+/*==============================================
+           INDEX PAGE RESPONSIVE END
+===============================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
